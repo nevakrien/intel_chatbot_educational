@@ -1,0 +1,13 @@
+transformers
+git+https://github.com/huggingface/optimum-intel.git
+openvino==2023.2.0.dev20230922
+optimum[intel] 
+
+nncf>=2.6.0
+einops
+onnx 
+onnxruntime 
+
+faiss-cpu
+
+jupyter
