@@ -15,6 +15,7 @@ def quantize(model_name,save_dir):
 
 if __name__=="__main__":
 	parser = argparse.ArgumentParser(description="takes a model from huggingface or local cach and quntizes it")
+	#by deafualt we use this lamma and not the chat because it works better with system propmpts
 	parser.add_argument('--model_name',  type=str, default="meta-llama/Llama-2-7b-hf",
 	                    help='the name of the model to be quntized')
 
